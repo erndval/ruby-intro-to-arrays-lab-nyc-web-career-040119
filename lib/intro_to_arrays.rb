@@ -6,5 +6,7 @@ def array_with_two_elements
   @my_two_arrays = ["Lapis", "Lazuli"]
 end
 
-def first_element()
+def first_element(array)
+  array[0]
+end
   
